@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    width: 100%;
+    max-width: 460px;
+}
+
+.menu-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 85px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: underline;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-menu:hover {
+    background-color: #0056b3;
+}
+
+.tarjeta-formulario {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-formulario h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.campo-grupo {
+    margin-bottom: 16px;
+}
+
+.campo-grupo label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.tarjeta-centrada .campo-grupo label {
+    text-align: center;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+}
+
+.tarjeta-centrada form {
+    text-align: center;
+}
+
+.campo-grupo input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.btn-enviar {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+.btn-enviar:hover {
+    background-color: #0056b3;
+}
+
+.resultado-notas {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.resultado-notas p {
+    margin-bottom: 12px;
+}
+
+.resultado-nombres {
+    margin-top: 22px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    color: #000000;
+}
+
+.resultado-nombres p {
+    margin-bottom: 14px;
+}
+
+.volver {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.volver a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.volver a:hover {
+    text-decoration: underline;
+}
